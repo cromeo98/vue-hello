@@ -2,11 +2,12 @@
 // Bonus: Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 // istanzo vue
-var application = new Vue(
+const application = new Vue(
     {
         el: '#root',
         data: {
-            message: 'Benvenuto su Vue! Ti divertirai (se funzionerà)'
+            message: 'Benvenuto su Vue! Ti divertirai (se funzionerà)',
+            img: '300'
         }
     }
 );
