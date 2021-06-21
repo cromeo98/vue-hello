@@ -5,5 +5,8 @@
 var application = new Vue(
     {
         el: '#root',
+        data: {
+            message: 'Benvenuto su Vue! Ti divertirai (se funzionerà)'
+        }
     }
 );
